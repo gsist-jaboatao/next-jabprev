@@ -40,7 +40,7 @@ const reportsData: ReportsByYear = {
 
       {
         name: "Setembro - Outubro",
-        url: "#",
+        url: "Pdf/cad-prev/dipr/4.1_SETEMBRO___OUTUBRO.pdf",
       },
 
       {

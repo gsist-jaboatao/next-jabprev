@@ -11,15 +11,6 @@ const Links = () => (
       </h1>
 
       <ul className="pl-5 text-[#051f60] text-xl pb-20">
-        <li className="py-2">
-          <a
-            href="Pdf/administrativo/obrigacoes-fiscais/3.5_Certidao_Negativa_de_Debitos_Trabalhistas___De_abril_a_outubro.2025.pdf"
-            target="_blank"
-            className="text-blue-800 hover:underline"
-          >
-            Certidão Negativa de Débitos Trabalhistas
-          </a>
-        </li>
 
         <li className="py-2">
           <a

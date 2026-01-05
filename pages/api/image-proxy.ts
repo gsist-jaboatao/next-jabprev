@@ -1,3 +1,4 @@
+// pages/api/image-proxy.ts
 import fetch from 'node-fetch';
 import { NextApiRequest, NextApiResponse } from 'next';
 

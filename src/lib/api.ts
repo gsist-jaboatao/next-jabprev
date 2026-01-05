@@ -1,3 +1,4 @@
+// src/lib/api.ts
 export async function fetchPostById(id: string) {
   try {
     const wordpressUrl = typeof process !== "undefined" ? process.env.NEXT_PUBLIC_WORDPRESS ?? "" : "";

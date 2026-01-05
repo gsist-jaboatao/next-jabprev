@@ -52,12 +52,10 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'backendjaboataoprev.jaboatao.pe.gov.br',
-        pathname: '/wp-content/uploads/**',
+        protocol: "https",
+        hostname: "jaboataoprev.jaboatao.pe.gov.br",
       },
     ],
-    unoptimized: true,
   },
 
   reactStrictMode: false,

@@ -33,6 +33,7 @@ const linksByYear: LinksByYear = {
     { date: "28 de agosto de 2025", path: "Pdf/administrativo/atas/investimento/1.1_Comite_de_Investimentos___Ata_de_28_de_agosto_de_2025.pdf" },
     { date: "29 de Setembro de 2025", path: "Pdf/administrativo/atas/investimento/1.1_Comite_de_Investimentos___29_de_setembro_de_2025.pdf" },
     { date: "30 de Outubro de 2025", path: "Pdf/administrativo/atas/investimento/1.1_Comite_de_Investimentos_30.10.2025.pdf" },
+    { date: "28 de novembro de 2025", path: "Pdf/administrativo/atas/investimento/1.1_Comite_de_Investimentos___Ata_de_28_de_novembro_de_2025.pdf" },
   ],
   2024: [
     { date: "19 de Janeiro de 2024", path: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2024/04/01.-Reuniao-do-Comite-de-Investimentos-19.01.2024.pdf" },

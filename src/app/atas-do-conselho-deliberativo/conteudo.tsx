@@ -52,6 +52,14 @@ const data: Record<string, { date: string; url: string }[]> = {
       date: "20 de outubro de 2025",
       url: "/Pdf/administrativo/atas/deliberativo2.1___Conselho_Deliberativo___Ata_20_de_outubro_de_2025.pdf",
     },
+    {
+      date: "19 de Novembro de 2025",
+      url: "/Pdf/administrativo/atas/deliberativo/1.1_Conselho_Deliberativo___19_de_novembro_de_2025.pdf",
+    },
+    {
+      date: "Conjunta Conselho Fiscal e Deliberativo - 17 de dezembro de 2025",
+      url: "/Pdf/administrativo/atas/deliberativo/1.1_Conjunta_Conselho_Fiscal_e_Deliberativo___17_de_dezembro_de_2025.pdf",
+    },
   ],
   "2024": [
     {
@@ -100,6 +108,7 @@ const data: Record<string, { date: string; url: string }[]> = {
       date: "19 de Dezembro de 2024",
       url: "/Pdf/administrativo/atas/deliberativo/12-ATA-21.12.2024-CONSELHO-DELIBERATIVO.pdf",
     },
+  
   ],
   "2023": [
     {

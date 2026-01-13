@@ -45,11 +45,12 @@ const data = {
     "Novembro – Servidores":"Pdf/administrativo/folha-de-pagamento/1.2_Novembro___Servidores.pdf",
     "Novembro – Câmara":"Pdf/administrativo/folha-de-pagamento/1.2_Novembro___Camara.pdf",
 
-    Dezembro:"#",
-    "Dezembro - Câmara":"#",
+    Dezembro:"Pdf/administrativo/folha-de-pagamento/1.3_DEZEMBRO.pdf",
+    "Dezembro - Servidores":"Pdf/administrativo/folha-de-pagamento/1.3_DEZEMBRO___SERVIDORES.pdf",
+    "Dezembro - Câmara":"Pdf/administrativo/folha-de-pagamento/1.3_DEZEMBRO___CAMARA.pdf",
 
-    "13º Salário":"#",
-    "13º Salário – Câmara":"#",
+    "13º Salário":"Pdf/administrativo/folha-de-pagamento/1.3_13__SALARIO.pdf",
+    "13º Salário – Servidores":"Pdf/administrativo/folha-de-pagamento/1.3_13__SALARIO___SERVIDORES.pdf",
   },
 
   2024: {

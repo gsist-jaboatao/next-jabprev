@@ -14,7 +14,7 @@ const Links = () => (
 
         <li className="py-2">
           <a
-            href="Pdf/administrativo/obrigacoes-fiscais/3.5_Certidao_de_Regularidade_do_FGTS___De_abril_a_Maio.2025.pdf"
+            href="Pdf/administrativo/obrigacoes-fiscais/fgts.pdf"
             target="_blank"
             className="text-blue-800 hover:underline"
           >
@@ -29,6 +29,16 @@ const Links = () => (
             className="text-blue-800 hover:underline"
           >
             Certidão de Regularidade da Divida Ativa da União e do INSS
+          </a>
+        </li>
+
+        <li className="py-2">
+          <a
+            href="Pdf/administrativo/obrigacoes-fiscais/certidao-regularidade-fiscal-estadual.pdf"
+            target="_blank"
+            className="text-blue-800 hover:underline"
+          >
+            Certidão de Regularidade Fiscal Estadual
           </a>
         </li>
 
@@ -64,7 +74,7 @@ const Links = () => (
 
         <li className="py-2">
           <a
-            href="Pdf/administrativo/obrigacoes-fiscais/2.3_CERTIDAO_NEGATIVA_DE_DEBITOS_TRABALHISTAS___Maio.2026.pdf"
+            href="Pdf/administrativo/obrigacoes-fiscais/certidao-negativa-de-debitos-trabalhistas.pdf"
             target="_blank"
             className="text-blue-800 hover:underline"
           >

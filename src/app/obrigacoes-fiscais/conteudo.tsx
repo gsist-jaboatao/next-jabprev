@@ -54,16 +54,6 @@ const Links = () => (
 
         <li className="py-2">
           <a
-            href="Pdf/administrativo/obrigacoes-fiscais/3.5_Certidao_Negativa_Estadual___De_Maio_a_junho.2025.pdf"
-            target="_blank"
-            className="text-blue-800 hover:underline"
-          >
-            Certidão Negativa Estadual
-          </a>
-        </li>
-
-        <li className="py-2">
-          <a
             href="Pdf/administrativo/obrigacoes-fiscais/CRF-20250307183.pdf"
             target="_blank"
             className="text-blue-800 hover:underline"

@@ -123,7 +123,7 @@ export default function CardGrid() {
             {
               title: "Prova de Vida",
               icon: <FaInfoCircle />,
-              link: "https://jaboatao.provadevida.app.br/#/",
+              link: "/prova-vida",
               subtext: "Faça aqui sua prova de vida.",
               target: "_blank",
             },

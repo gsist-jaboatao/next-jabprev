@@ -21,9 +21,9 @@ const ProvaDeVidaPage: React.FC = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 pt-10">
+        <div className="bg-gradient-to-br from-gray-50 to-gray-100 py-20">
             {/* Main Content */}
-            <main className="container mx-auto px-4 py-8">
+            <main className="container mx-auto px-4">
                 {/* Cards de Seleção */}
                 <div className="max-w-4xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

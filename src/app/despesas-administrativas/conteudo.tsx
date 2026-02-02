@@ -1,7 +1,7 @@
 const data = {
   2025: {
-    "Dezembro": { valor: "R$", link: "#" },
-    "Novembro": { valor: "R$", link: "#" },
+    "Dezembro": { valor: "R$ 499.112,65", link: "/Pdf/financeiro/despesas-administrativas/2.1_DEZEMBRO___DESPESAS_ADM_2025" },
+    "Novembro": { valor: "R$ 194.759,94", link: "/Pdf/financeiro/despesas-administrativas/2.1_NOVEMBRO___DESPESAS_ADM_2025" },
     "Outubro": { valor: "R$ 282.516,59", link: "/Pdf/financeiro/despesas-administrativas/3.1___OUTUBRO___DESPESAS_ADM_2025.pdf" },
     "Setembro": { valor: "R$ 407.256,18", link: "/Pdf/financeiro/despesas-administrativas/3.1_SETEMBRO___DESPESAS_ADM_2025.pdf" },
     "Agosto": { valor: "R$ 298.462,06", link: "/Pdf/financeiro/despesas-administrativas/1.1_DESPESAS_ADM_2025___AGOSTO.pdf" },

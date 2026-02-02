@@ -61,6 +61,22 @@ const reportsData: ReportsByYear = {
         ],
       },
 
+      {
+        name: "4° Trimestre",
+        links: [
+          {
+            text: "CAPITALIZADO",
+            url: "/Pdf/financeiro/demonstrativos-contabeis/2025/2.2_Demonstrativo_Contabil___4__Trimestre___CAP",
+          },
+          {
+            text: "FINANCEIRO",
+            url: "/Pdf/financeiro/demonstrativos-contabeis/2025/2.2_Demonstrativo_Contabil___4__Trimestre___FIN",
+          },
+        ],
+      },
+
+
+
     ],
   },
   "2024": {

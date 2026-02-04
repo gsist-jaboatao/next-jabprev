@@ -76,7 +76,7 @@ const navigation: NavItem[] = [
         submenu: [
           {
             name: "Calendário de Pagamento",
-            href: "/Pdf/menu/2.2_CALENDARIO_DE_PAGAMENTO_2025.pdf",
+            href: "/Pdf/menu/calendario-de-pagamento.pdf",
           },
           {
             name: "Calendários de Reuniões",
@@ -84,12 +84,12 @@ const navigation: NavItem[] = [
             submenu: [
               {
                 name: "Reuniões do Conselho Fiscal",
-                href: "/Pdf/menu/Calendario-de-Reunioes-do-Conselho-Fiscal-2025.pdf",
+                href: "/Pdf/menu/Calendario-de-Reunioes-do-Conselho-Fiscal.pdf",
               },
 
               {
                 name: "Reuniões do Conselho Deliberativo",
-                href: "/Pdf/menu/Calendario-de-Reunioes-do-Conselho-Deliberativo-2025.pdf",
+                href: "/Pdf/menu/Calendario-de-Reunioes-do-Conselho-Deliberativo.pdf",
               },
 
               {
@@ -99,24 +99,24 @@ const navigation: NavItem[] = [
 
               {
                 name: "Reuniões da Diretoria Executiva",
-                href: "/Pdf/menu/Calendario-de-Reunioes-gerenciais-2025-1.pdf",
+                href: "/Pdf/menu/Calendario-de-Reunioes-gerenciais.pdf", 
               },
 
               {
                 name: "Reuniões Setoriais",
-                href: "/Pdf/menu/Calendario-de-Reunioes-Setoriais-2025.pdf",
+                href: "/Pdf/menu/Calendario-de-Reunioes-Setoriais.pdf",
               },
 
               {
                 name: "Reuniões da Comissão de Revisão de Benefícios",
-                href: "/Pdf/menu/CALENDARIO-DE-REUNIOES-Comissao-2025.pdf",
+                href: "/Pdf/menu/CALENDARIO-DE-REUNIOES-Comissao.pdf",
               },
             ],
           },
 
           {
             name: "Calendário de Obrigações",
-            href: "/Pdf/menu/Calendario-de-Envio-de-Informacoes-2025.pdf",
+            href: "/Pdf/menu/Calendario-de-Envio-de-Informacoes.pdf",
           },
 
           {

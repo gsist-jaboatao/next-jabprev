@@ -69,12 +69,12 @@ const reportsData: ReportsByYear = {
 
       {
         name: "Novembro",
-        url: "#",
+        url: "/Pdf/previdencia/provisoes-matematicas/2025/2.1_PROVISOES_MATEMATICAS___Novembro",
       },
 
       {
         name: "Dezembro",
-        url: "#",
+        url: "/Pdf/previdencia/provisoes-matematicas/2025/2.1_PROVISOES_MATEMATICAS___Dezembro",
       },
     ],
   },

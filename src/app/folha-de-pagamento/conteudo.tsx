@@ -1,5 +1,11 @@
 const data = {
 
+  2026: {
+    Janeiro: "Pdf/administrativo/folha-de-pagamento/1.3_Janeiro",
+    "Janeiro - Servidores": "Pdf/administrativo/folha-de-pagamento/1.3_Janeiro___Servidores",
+    "Janeiro - Câmara": "Pdf/administrativo/folha-de-pagamento/1.3_Janeiro___Camara",
+    },
+
   2025: {
     Janeiro: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2025/02/GERAL.pdf",
     "Janeiro - Servidores": "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2025/02/COMISSIONADOS.pdf",

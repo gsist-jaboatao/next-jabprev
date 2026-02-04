@@ -160,7 +160,7 @@ const navigation: NavItem[] = [
         href: "/programa-5s",
       },
       { name: "Relatório Anual de Gestão", href: "/relatorio-anual-de-gestao" },
-      { name: "Obrigações Fiscais", href: "/obrigacoes-fiscais" },
+      { name: "Obrigações Fiscais", href: "/obrigacoes-fiscais" }, 
     ],
   },
 
@@ -196,6 +196,10 @@ const navigation: NavItem[] = [
         name: "Relatórios Atuariais",
         href: "#",
         submenu: [
+          {
+            name: "Avaliação Atuarial 2026",
+            href: "/Pdf/menu/2.2_RELATORIO_DE_AVALIACAO_ATURIAL_2026",
+          },
           {
             name: "Avaliação Atuarial 2025",
             href: "/Pdf/menu/Jaboatao_dos_GuararapesPE-Relatorio-Avaliacao-Atuarial-Segregacao-2025-N009_V1.pdf",

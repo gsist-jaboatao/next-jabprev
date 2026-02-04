@@ -297,7 +297,7 @@ const navigation: NavItem[] = [
       { name: "Política de Investimentos", href: "/politica-de-investimentos" },
       {
         name: "Relatório Anual de Investimentos",
-        href: "/Pdf/menu/5.3_RELATORIO_ANUAL_2024.pdf",
+        href: "/Pdf/menu/relatorio-anual-de-investimentos.pdf",
       },
       {
         name: "Regimento Interno",

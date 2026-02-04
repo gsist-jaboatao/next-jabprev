@@ -6,16 +6,17 @@ interface ReportsByYear {
     title: string;
     url: string;
   };
-}
+} 
 
 const reportsData: ReportsByYear = {
-  "2024": { title: "2024", url: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2021/02/DPIN_2021_CADPREV.pdf" },
-  "2023": { title: "2023", url: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2021/02/DPIN_2021_CADPREV.pdf" },
-  "2022": { title: "2022", url: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2021/02/DPIN_2021_CADPREV.pdf" },
-  "2021": { title: "2021", url: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2021/02/DPIN_2021_CADPREV.pdf" },
-  "2020": { title: "2020", url: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2020/01/DPIN_2020.pdf" },
-  "2019": { title: "2019", url: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2018/12/updated_DECLARACAO_VERACIDADE_DPIN_2019.pdf" },
-  "2018": { title: "2018", url: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2017/12/dpin-2018.pdf" },
+  "2025": { title: "2025", url: "Pdf/cad-prev/dpin/4.3_DPIN_2025.pdf" },
+  "2024": { title: "2024", url: "Pdf/cad-prev/dpin/4.3_DPIN_2024.pdf" },
+  "2023": { title: "2023", url: "Pdf/cad-prev/dpin/4.3_DPIN_2023.pdf" },
+  "2022": { title: "2022", url: "Pdf/cad-prev/dpin/4.3_DPIN_2022.pdf" },
+  "2021": { title: "2021", url: "Pdf/cad-prev/dpin/4.3_DPIN_2021.pdf" },
+  "2020": { title: "2020", url: "Pdf/cad-prev/dpin/4.3_DPIN_2020.pdf" },
+  "2019": { title: "2019", url: "Pdf/cad-prev/dpin/4.3_DPIN_2019.pdf" },
+  "2018": { title: "2018", url: "Pdf/cad-prev/dpin/4.3_DPIN_2018.pdf" },
 };
 
 const FinancialReports: React.FC = () => {

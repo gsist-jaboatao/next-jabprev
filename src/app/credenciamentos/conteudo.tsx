@@ -17,8 +17,8 @@ const dados: Credenciamento[] = [
     instituicao:
       "BB GESTÃO DE RECURSOS - DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS",
     tipoInstituicao: "ADMINISTRADOR",
-    dataCredenciamento: "01/08/2023",
-    dataValidade: "01/08/2025",
+    dataCredenciamento: "31/12/2025",
+    dataValidade: "31/12/2027",
     downloadLink: "#",
   },
   {
@@ -26,7 +26,7 @@ const dados: Credenciamento[] = [
     tipo: "-",
     instituicao: "BNY MELLON SERVIÇOS FINANCEIROS DTVM S.A.",
     tipoInstituicao: "ADMINISTRADOR",
-    dataCredenciamento: "30/09/2020",
+    dataCredenciamento: "30/09/2024",
     dataValidade: "30/09/2026",
     downloadLink: "#",
   },
@@ -35,8 +35,8 @@ const dados: Credenciamento[] = [
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
     tipoInstituicao: "ADMINISTRADOR",
-    dataCredenciamento: "15/11/2023",
-    dataValidade: "15/11/2025",
+    dataCredenciamento: "01/11/2025",
+    dataValidade: "01/11/2027",
     downloadLink: "#",
   },
   {
@@ -89,8 +89,8 @@ const dados: Credenciamento[] = [
     tipo: "-",
     instituicao: "FINACAP INVESTIMENTOS LTDA",
     tipoInstituicao: "GESTOR",
-    dataCredenciamento: "07/08/2023",
-    dataValidade: "07/08/2025",
+    dataCredenciamento: "31/12/2025",
+    dataValidade: "31/12/2027",
     downloadLink: "#",
   },
   {
@@ -122,7 +122,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "BANCO BRADESCO S/A",
     tipoInstituicao: "ADMINISTRADOR",
@@ -132,7 +132,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "BEM DTVM LTDA",
     tipoInstituicao: "ADMINISTRADOR",
@@ -142,7 +142,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "BANCO BNP PARIBAS BRASIL S.A. ",
     tipoInstituicao: "ADMINISTRADOR",
@@ -152,7 +152,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "ITAÚ UNIBANCO S.A.",
     tipoInstituicao: "ADMINISTRADOR",
@@ -162,7 +162,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "BTG PACTUAL SERVIÇOS FINANCEIROS S.A DTVM",
     tipoInstituicao: "ADMINISTRADOR",
@@ -172,7 +172,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "BNP PARIBAS ASSET MANAGEMENT BRASIL LTDA.",
     tipoInstituicao: "GESTOR",
@@ -182,7 +182,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "BRAM - BRADESCO ASSET MANAGEMENT S.A. - DTVM",
     tipoInstituicao: "GESTOR",
@@ -212,7 +212,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "-",
     instituicao: "ICATU VANGUARDA GESTÃO DE RECURSOS LTDA.",
     tipoInstituicao: "GESTOR",
@@ -222,17 +222,17 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "-",
     instituicao: "AZ QUEST INVESTIMENTOS LTDA",
     tipoInstituicao: "GESTOR",
     dataCredenciamento: "04/04/2024",
-    dataValidade: "04/04/2026",
+    dataValidade: "03/04/2026",
     downloadLink: "#",
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "-",
     instituicao: "SOMMA INVESTIMENTOS S.A",
     tipoInstituicao: "GESTOR",
@@ -242,7 +242,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "XP ALLOCATION ASSET MANAGEMENT LTDA",
     tipoInstituicao: "GESTOR",
@@ -252,7 +252,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao: "XP GESTÃO DE RECURSOS LTDA",
     tipoInstituicao: "GESTOR",
@@ -262,7 +262,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "-",
     instituicao: " XP GESTÃO DE RECURSOS LTDA",
     tipoInstituicao: "CUSTODIANTE",
@@ -272,7 +272,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "-",
     instituicao: "GRID AGENTE AUTONOMO DE INVESTIMENTO LTDA",
     tipoInstituicao: "DISTRIBUIDOR",
@@ -282,7 +282,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "-",
     instituicao: " PRIVATIZA AGENTES AUTÔNOMOS DE INVESTIMENTOS",
     tipoInstituicao: "DISTRIBUIDOR",
@@ -292,18 +292,18 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "Inciso I, do § 2º, do art. 21 da Res CMN nº 4.963/2021",
     instituicao:
       "XP INVESTIMENTOS CORRETORA DE CAMBIO, TITULOS E VALORES MOBILIARIOS S/A",
     tipoInstituicao: "DISTRIBUIDOR",
-    dataCredenciamento: "12/04/2023",
-    dataValidade: "11/04/2025",
+    dataCredenciamento: "12/04/2024",
+    dataValidade: "11/04/2026",
     downloadLink: "#",
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.2",
     tipo: "-",
     instituicao: "PERFORME AGENTES AUTÔNOMOS DE INVESTIMENTOS LTDA",
     tipoInstituicao: "DISTRIBUIDOR",
@@ -313,7 +313,7 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2020.2",
     tipo: "-",
     instituicao: "MULTINVEST CAPITAL ADM DE RECURSOS LTDA",
     tipoInstituicao: "GESTOR",
@@ -323,62 +323,62 @@ const dados: Credenciamento[] = [
   },
 
   {
-    ano: "2021.2",
+    ano: "2024.2",
     tipo: "-",
     instituicao: "RIO BRAVO INVESTIMENTOS",
     tipoInstituicao: "GESTOR",
     dataCredenciamento: "01/07/2024",
-    dataValidade: "01/07/2024",
+    dataValidade: "30/06/2026",
     downloadLink: "#",
   },
 
   {
-    ano: "2021.2",
+    ano: "2024.2",
     tipo: "-",
     instituicao: "BANCO SANTANDER",
     tipoInstituicao: "EMISSOR",
-    dataCredenciamento: "01/10/'",
-    dataValidade: "01/10/2024",
+    dataCredenciamento: "01/10/2024'",
+    dataValidade: "01/10/2026",
     downloadLink: "#",
   },
 
   {
-    ano: "2021.2",
+    ano: "2024.2",
     tipo: "-",
     instituicao: "BANCO DO NORDESTE DO BRASIL S/A",
     tipoInstituicao: "GESTOR",
     dataCredenciamento: "01/11/2024",
-    dataValidade: "01/11/2024",
+    dataValidade: "01/11/2026",
     downloadLink: "#",
   },
 
   {
-    ano: "2021.2",
+    ano: "2025.1",
     tipo: "-",
     instituicao: "4UM GESTAO DE RECURSOS LTDA",
     tipoInstituicao: "GESTOR",
     dataCredenciamento: "03/02/2025",
-    dataValidade: "03/02/2025",
+    dataValidade: "03/02/2027",
     downloadLink: "#",
   },
 
   {
-    ano: "2021.2",
+    ano: "2025.1",
     tipo: "-",
     instituicao: "Sul América Investimentos Gestora de Recursos S.A.",
     tipoInstituicao: "GESTOR",
     dataCredenciamento: "03/02/2025",
-    dataValidade: "03/02/2025",
+    dataValidade: "03/02/2027",
     downloadLink: "#",
   },
 
   {
-    ano: "2021.2",
+    ano: "2022.1",
     tipo: "-",
     instituicao: "RENASCENÇA DISTRIBUIDORA DE TÍTULOS E VALORES",
     tipoInstituicao: "CORRETORA",
     dataCredenciamento: "10/05/2024",
-    dataValidade: "10/05/2024",
+    dataValidade: "30/05/2026",
     downloadLink: "#",
   },
 ];

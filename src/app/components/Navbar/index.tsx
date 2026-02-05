@@ -198,7 +198,7 @@ const navigation: NavItem[] = [
         submenu: [
           {
             name: "Avaliação Atuarial 2026",
-            href: "/Pdf/menu/2.2_RELATORIO_DE_AVALIACAO_ATURIAL_2026",
+            href: "/Pdf/menu/2.2_RELATORIO_DE_AVALIACAO_ATURIAL_2026.pdf",
           },
           {
             name: "Avaliação Atuarial 2025",

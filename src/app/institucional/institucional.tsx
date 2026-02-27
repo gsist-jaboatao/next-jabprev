@@ -131,11 +131,6 @@ const Equipe = () => (
           <br />
           Taís Cavalcante
         </p>
-        <p className="pt-4">
-          <strong>Assessora Jurídica</strong>
-          <br />
-          Julyana Porto
-        </p>
       </div>
 
       <div>

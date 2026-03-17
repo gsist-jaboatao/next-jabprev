@@ -14,6 +14,20 @@ interface ReportsByYear {
 }
 
 const reportsData: ReportsByYear = {
+  "2026": {
+    title: "2026",
+    reports: [
+      {
+        name: "Janeiro – 2026",
+        url: "/Pdf/investimentos/relatorio-mensais/JANEIRO2026.pdf",
+      },
+      {
+        name: "Fevereiro – 2026",
+        url: "/Pdf/investimentos/relatorio-mensais/FEVEREIRO2026.pdf",
+      },
+    ],
+  },
+
   "2025": {
     title: "2025",
     reports: [

@@ -1,4 +1,8 @@
 const data = {
+  2026: {
+    "Fevereiro": { valor: "R$ 270.494,34", link: "/Pdf/financeiro/despesas-administrativas/2.1FEVEREIRO-DESPESAS-ADM-2026.pdf" },
+  },
+
   2025: {
     "Dezembro": { valor: "R$ 499.112,65", link: "/Pdf/financeiro/despesas-administrativas/2.1_DEZEMBRO___DESPESAS_ADM_2025" },
     "Novembro": { valor: "R$ 194.759,94", link: "/Pdf/financeiro/despesas-administrativas/2.1_NOVEMBRO___DESPESAS_ADM_2025" },

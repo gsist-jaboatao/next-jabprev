@@ -14,6 +14,21 @@ interface ReportsByYear {
 }
 
 const reportsData: ReportsByYear = {
+  "2026": {
+    title: "2026",
+    reports: [
+      {
+        name: "Janeiro",
+        url: "/Pdf/previdencia/provisoes-matematicas/2026/2026JANEIRO.pdf",
+      },
+
+      {
+        name: "Fevereiro",
+        url: "/Pdf/previdencia/provisoes-matematicas/2026/2026FEVEREIRO.pdf",
+      },
+    ],
+  },
+
   "2025": {
     title: "2025",
     reports: [

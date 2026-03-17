@@ -44,7 +44,7 @@ const Links = () => (
 
         <li className="py-2">
           <a
-            href="https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2024/07/COMPROVANTE-DO-CNPJ.pdf"
+            href="Pdf/administrativo/obrigacoes-fiscais/cnpj.pdf"
             target="_blank"
             className="text-blue-800 hover:underline"
           >

@@ -4,6 +4,10 @@ import React from "react";
 
 const planos = [
   {
+    ano: 2026,
+    link: "/Pdf/administrativo/plano-de-acao/Plano_de_Acao___JaboataoPrev_2026.pdf",
+  },
+  {
     ano: 2025,
     link: "/Pdf/administrativo/plano-de-acao/2.8_Plano_de_Acao___JaboataoPrev_2025.pdf",
   },

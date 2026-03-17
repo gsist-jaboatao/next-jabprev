@@ -1,6 +1,7 @@
 "use client";
 
 const pdfFiles = [
+  { local: "/Pdf/Cronograma-de-Capacitacao/1.4CronogramadeCapacitacao2026.pdf" },
   { local: "/Pdf/Cronograma-de-Capacitacao/capacitacao1.pdf" },
   { local: "/Pdf/Cronograma-de-Capacitacao/capacitacao2.pdf" },
   { local: "/Pdf/Cronograma-de-Capacitacao/capacitacao3.pdf" },

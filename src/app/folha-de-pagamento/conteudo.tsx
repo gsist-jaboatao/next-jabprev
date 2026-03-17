@@ -4,6 +4,10 @@ const data = {
     Janeiro: "Pdf/administrativo/folha-de-pagamento/1.3_Janeiro",
     "Janeiro - Servidores": "Pdf/administrativo/folha-de-pagamento/1.3_Janeiro___Servidores",
     "Janeiro - Câmara": "Pdf/administrativo/folha-de-pagamento/1.3_Janeiro___Camara",
+
+    Fevereiro: "Pdf/administrativo/folha-de-pagamento/1.3Fevereiro.pdf",
+    "Fevereiro - Servidores": "Pdf/administrativo/folha-de-pagamento/1.3Fevereiro-Servidores.pdf",
+    "Fevereiro - Câmara": "Pdf/administrativo/folha-de-pagamento/1.3Fevereiro-Camara.pdf",
     },
 
   2025: {

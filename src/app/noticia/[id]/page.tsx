@@ -20,7 +20,7 @@ export async function generateMetadata(props: any): Promise<Metadata> {
     return { title: "Notícia não encontrada" };
   }
 
-  const post = await fetchPostById(postId.toString());
+  const { post } = await fetchPostById(postId.toString());
   if (!post) {
     return { title: "Notícia não encontrada" };
   }
@@ -34,9 +34,8 @@ interface Post {
   id: number;
   title: { rendered: string };
   date: string;
-  category: string;
   content: { rendered: string };
-  featured_image_url?: string;
+  featured_image_url?: string | null;
 }
 
 const NoticiaDetalhada = ({ post }: { post: Post }): JSX.Element => {
@@ -132,9 +131,24 @@ export default async function NoticiaPage(props: any): Promise<JSX.Element> {
     return notFound();
   }
 
-  const post = await fetchPostById(postId.toString());
-  if (!post) {
+  const { post, isNotFound } = await fetchPostById(postId.toString());
+
+  if (isNotFound) {
     return notFound();
+  }
+
+  if (!post) {
+    return (
+      <main className="px-6 py-24 max-w-4xl mx-auto text-center">
+        <h1 className="text-2xl sm:text-3xl font-bold text-green-900">
+          Não foi possível carregar esta notícia agora
+        </h1>
+        <p className="text-gray-700 mt-4">
+          Tente novamente em instantes. Se o problema persistir, volte para a
+          página inicial e tente abrir a notícia novamente.
+        </p>
+      </main>
+    );
   }
 
   return <NoticiaDetalhada post={post} />;

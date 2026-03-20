@@ -144,7 +144,7 @@ const navigation: NavItem[] = [
 
       {
         name: "Educação Previdenciária e Financeira",
-        href: "/Pdf/menu/Cronograma-de-Educacao-Previdenciaria-2024.pdf",
+        href: "/Pdf/menu/EducacaoPrevidenciariaeFinanceira.pdf",
       },
 
       { name: "Folha de Pagamento", href: "/folha-de-pagamento" },

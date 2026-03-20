@@ -1,140 +1,185 @@
 "use client";
+
 import React from "react";
 
-interface ProcessoData {
-  processo: string;
-  juizo: string;
-  assunto: string;
-}
+const Informacoes = () => (
+  <div className="h-auto bg-gradient-to-b from-[#ffffff] via-[#dcecff] to-[#cbe1fc]">
+    {/* Tabela completa */}
+    <div className="container mx-auto p-6 text-center overflow-x-auto">
+      <table className="w-full border-collapse border border-gray-400 text-left">
+        <thead>
+          <tr className="bg-blue-500 text-white">
+            <th className="border border-gray-400 px-4 py-2">PROCESSO</th>
+            <th className="border border-gray-400 px-4 py-2">JUÍZO</th>
+            <th className="border border-gray-400 px-4 py-2">ASSUNTO</th>
+          </tr>
+        </thead>
+        <tbody>
+          {/* 1 */}
+          <tr className="bg-blue-100">
+            <td className="border border-gray-400 px-4 py-2">0018219-51.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>      
+</tr>
 
-const processos: ProcessoData[] = [
-  {
-    processo: "0029010-16.2024.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "DESCONTOS PREVIDENCIÁRIOS",
-  },
-  {
-    processo: "0009958-34.2024.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "PENSÃO POR MORTE",
-  },
-  {
-    processo: "0011415-43.2020.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "TERÇO DE FÉRIAS",
-  },
-  {
-    processo: "0031571-13.2024.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "PENSÃO POR MORTE",
-  },
-  {
-    processo: "0031779-94.2024.8.17.2810",
-    juizo: "1ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "LICENÇA PRÊMIO",
-  },
-  {
-    processo: "0027683-36.2024.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "PENSÃO POR MORTE",
-  },
-  {
-    processo: "0031042-91.2024.8.17.2810",
-    juizo: "1ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "LICENÇA PRÊMIO",
-  },
-  {
-    processo: "0000589-79.2025.8.17.2810",
-    juizo: "1ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "LICENÇA PRÊMIO",
-  },
-  {
-    processo: "0005845-03.2025.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "MANDADO DE SEGURANÇA",
-  },
-  {
-    processo: "0061728-03.2023.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "PENSÃO POR MORTE",
-  },
-  {
-    processo: "0031046-31.2024.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "LICENÇA PRÊMIO",
-  },
-  {
-    processo: "0000590-64.2025.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "LICENÇA PRÊMIO",
-  },
-  {
-    processo: "0000699-78.2025.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "LICENÇA PRÊMIO",
-  },
-  {
-    processo: "0027004-36.2024.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "ISENÇÃO - IR",
-  },
-  {
-    processo: "0029403-09.2022.8.17.2810",
-    juizo: "1ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "PENSÃO POR MORTE",
-  },
-  {
-    processo: "0039463-46.2019.8.17.2810",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "LIQUIDAÇÃO DE SENTENÇA",
-  },
-  {
-    processo: "0126989-77.2024.8.17.2001",
-    juizo: "2ª VARA DA FAZENDA PÚBLICA DA COMARCA DE JABOATÃO DOS GUARARAPES",
-    assunto: "DEFESA - DECLARAÇÃO DE ISENÇÃO DE IR C/C REPETIÇÃO DE INDÉBITO",
-  },
-];
+          {/* 2 */}
+           <tr>
+            <td className="border border-gray-400 px-4 py-2">0018237-72.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">1ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>      
+          </tr>
 
-const JudicialReportTable: React.FC = () => {
+          {/* 3 */}
+          <tr className="bg-blue-100">
+            <td className="border border-gray-400 px-4 py-2">0013079-36.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">ISENÇÃO IR</td>      
+ 
+          </tr>
+
+
+
+          {/* 4 */}
+         <tr>
+            <td className="border border-gray-400 px-4 py-2">0002601-37.2023.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">1ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">PERÍCIA MÉDICA</td>      
+          </tr>
+
+          {/* 5 */}
+          <tr className="bg-blue-100">
+            <td className="border border-gray-400 px-4 py-2">0019734-24.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">1ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>      
+          </tr>
+
+          {/* 6 */}
+ <tr>
+            <td className="border border-gray-400 px-4 py-2">0007449-96.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>      
+          </tr>
+
+          {/* 7 */}
+            <tr className="bg-blue-100">
+            <td className="border border-gray-400 px-4 py-2">0013172-96.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>      
+          </tr>
+
+          {/* 8 */}
+ <tr>
+            <td className="border border-gray-400 px-4 py-2">0029001-59.2021.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">Pagamento de Quinquênio</td>      
+          </tr>
+
+          {/* 9 */}
+          <tr className="bg-blue-100">
+            <td className="border border-gray-400 px-4 py-2">0027214-53.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>
+</tr>      
+
+         {/* 10 */}
+ <tr>
+            <td className="border border-gray-400 px-4 py-2">0024894-30.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>
+</tr>      
+     
+          {/* 11 */}
+        <tr className="bg-blue-100">
+<td className="border border-gray-400 px-4 py-2">0024978-65.2024.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">RESTOS DEIXADOS</td>
+          </tr>
+
+          {/* 12 */}
+ <tr>
+<td className="border border-gray-400 px-4 py-2">0058788-65.2023.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">1ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">CÁLCULO IR</td>
+          </tr>
+
+          {/* 13 */}
+         <tr className="bg-blue-100">
+<td className="border border-gray-400 px-4 py-2">003995-89.2017.8.17.2810</td>            <td className="border border-gray-400 px-4 py-2">1ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">QUINQUÊNIO</td>
+          </tr>
+
+          {/* 14 */}
+ <tr>
+<td className="border border-gray-400 px-4 py-2">0027214-53.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>
+          </tr>
+
+          {/* 15 */}
+          <tr className="bg-blue-100">
+<td className="border border-gray-400 px-4 py-2">0027600-83.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>
+          </tr>
+
+          {/* 16 */}
+ <tr>
+<td className="border border-gray-400 px-4 py-2">0000496-82.2026.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>
+          </tr>
+
+  	{/* 17 */}
+            <tr className="bg-blue-100">
+<td className="border border-gray-400 px-4 py-2">0027809-52.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>
+          </tr>
+
+            {/* 18 */}
+ <tr>
+<td className="border border-gray-400 px-4 py-2">0018219-51.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO – SOLICITANDO FICHAS FINANCEIRAS E PORTARIA</td>
+          </tr>
+
+          {/* 19 */}
+          <tr className="bg-blue-100">
+<td className="border border-gray-400 px-4 py-2">001241-88.2026.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">1ª Juizado Especial de Fazenda Pública da Capital</td>
+            <td className="border border-gray-400 px-4 py-2">REPETIÇÃO DE INDÉBITO IRPF</td>
+          </tr>
+
+        
+  {/* 20 */}    
+<tr>
+<td className="border border-gray-400 px-4 py-2">0020460-95.2025.8.17.2810</td>
+            <td className="border border-gray-400 px-4 py-2">2ª Vara da Fazenda Pública da Comarca de Jaboatão dos Guararapes</td>
+            <td className="border border-gray-400 px-4 py-2">LICENÇA PRÊMIO</td>
+          </tr>
+          </tbody>
+      </table>
+    </div>
+
+    <div className="flex flex-col items-center py-20 text-blue-900">
+      <h1 className="text-5xl font-bold mb-4 uppercase">LICITAÇÕES</h1>
+      <a
+        className="text-blue-600 hover:underline text-xl" target="_blank"
+        href="https://portaldatransparencia.jaboatao.pe.gov.br/licitacoes/"
+      >
+        CLIQUE AQUI
+      </a>
+    </div>
+  </div>
+);
+
+const Content = () => {
   return (
-    <div className="py-14 max-w-[1500px] mx-auto">
-
-      <div className="w-full overflow-x-auto">
-        <div className="min-w-[768px]">
-          <table className="w-full border border-gray-300">
-            <thead className="bg-[#3498db] text-white text-base md:text-lg uppercase">
-              <tr>
-                <th className="border border-gray-300 px-3 py-2 text-left">
-                  Processo
-                </th>
-                <th className="border border-gray-300 px-3 py-2 text-left">
-                  Juízo
-                </th>
-                <th className="border border-gray-300 px-3 py-2 text-left">
-                  Assunto
-                </th>
-              </tr>
-            </thead>
-            <tbody className="text-sm md:text-base text-gray-800">
-              {processos.map((item, index) => (
-                <tr key={index} className="even:bg-gray-100">
-                  <td className="border border-gray-300 px-3 py-2">
-                    {item.processo}
-                  </td>
-                  <td className="border border-gray-300 px-3 py-2">
-                    {item.juizo}
-                  </td>
-                  <td className="border border-gray-300 px-3 py-2">
-                    {item.assunto}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
+    <div className="flex flex-col">
+      <Informacoes />
     </div>
   );
 };
 
-export default JudicialReportTable;
+export default Content;
+

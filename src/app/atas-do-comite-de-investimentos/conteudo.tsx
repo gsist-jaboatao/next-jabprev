@@ -22,6 +22,10 @@ interface YearTitleProps {
 
 // Dados organizados por ano
 const linksByYear: LinksByYear = {
+  2026: [
+    { date: "21 de janeiro de 2026", path: "Pdf/administrativo/atas/investimento/01ReuniaodoComitedeInvestimentos21012026.pdf" },
+    { date: "27 de Fevereiro de 2026", path: "Pdf/administrativo/atas/investimento/02.ReuniãodoComitedeInvestimentos27.02.2026.pdf" },
+  ],
   2025: [
     { date: "31 de janeiro de 2025", path: "Pdf/administrativo/atas/investimento/2.1_ATA_DO_COMITE_DE_INVESTIMENTOS___31_de_janeiro_de_2025.pdf" },
     { date: "26 de Fevereiro de 2025", path: "Pdf/administrativo/atas/investimento/2.1_ATA_DO_COMITE_DE_INVESTIMENTOS___26_de_fevereiro_de_2025.pdf" },

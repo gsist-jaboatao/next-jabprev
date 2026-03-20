@@ -125,11 +125,11 @@ const navigation: NavItem[] = [
             submenu: [
               {
                 name: "Dia de Acolhimento e Boas Vindas",
-                href: "/Pdf/menu/Calendario-cafe-da-manha-2025-1.pdf",
+                href: "/Pdf/administrativo/atas/calendario/CalendarioDiadeAcolhimento.pdf",
               },
               {
                 name: "Seminário De Educação Previdenciária E Financeira",
-                href: "/Pdf/menu/2.1_Calendario_do_Seminario_de_Educacao_Previdenciaria.pdf",
+                href: "/Pdf/administrativo/atas/calendario/CalendariodoSeminariodeEducacaoPrevidenciaria-2026.pdf",
               },
             ],
           },

@@ -3,6 +3,16 @@
 import React from "react";
 
 const data: Record<string, { date: string; url: string }[]> = {
+  "2026": [
+    {
+      date: "22 de Janeiro de 2026",
+      url: "/Pdf/administrativo/atas/fiscal/01-ATACONSELHOFISCAL22012026.pdf",
+    },
+    {
+      date: "13 de Fevereiro de 2026",
+      url: "/Pdf/administrativo/atas/fiscal/02-ATACONSELHOFISCAL13022026.pdf",
+    },
+  ],
   "2025": [
     {
       date: "30 de Janeiro de 2025",

@@ -139,7 +139,7 @@ export default async function NoticiaPage(props: any): Promise<JSX.Element> {
 
   if (!post) {
     return (
-      <main className="px-6 py-24 max-w-4xl mx-auto text-center">
+      <main className="px-6 py-40 max-w-4xl mx-auto text-center">
         <h1 className="text-2xl sm:text-3xl font-bold text-green-900">
           Não foi possível carregar esta notícia agora
         </h1>

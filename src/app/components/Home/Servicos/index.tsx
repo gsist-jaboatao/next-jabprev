@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInfoCircle } from "react-icons/fa";
 import { MdOutlineAttachMoney } from "react-icons/md";
-import { FaPiggyBank, FaBookOpen, FaPhoneAlt } from "react-icons/fa";
+import { FaPiggyBank, FaBookOpen, FaMoneyBill } from "react-icons/fa";
 import { BsPlusCircleFill } from "react-icons/bs";
 
 const Card = ({
@@ -114,10 +114,10 @@ export default function CardGrid() {
               target: "_blank",
             },
             {
-              title: "Nossos Telefones",
-              icon: <FaPhoneAlt />,
-              subtext:
-                "Nossos telefones:\n (81) 99756-0292 \n (81) 99975-4173 \n (81) 99113-3308\n (81) 99113-3308\n (81) 99975-4173",
+              title: "Imposto de Renda",
+              icon: <FaMoneyBill />,
+              link: "https://www.municipioonline.com.br/pe/jabprev/jaboataodosguararapes",
+              subtext: "Faça aqui seu Imposto de Renda.",
               target: "_blank",
             },
             {

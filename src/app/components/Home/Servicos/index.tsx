@@ -117,7 +117,7 @@ export default function CardGrid() {
               title: "Imposto de Renda",
               icon: <FaMoneyBill />,
               link: "https://www.municipioonline.com.br/pe/jabprev/jaboataodosguararapes",
-              subtext: "Faça aqui seu Imposto de Renda.",
+              subtext: "Imposto de Renda.",
               target: "_blank",
             },
             {

@@ -137,7 +137,7 @@ const navigation: NavItem[] = [
       },
       {
         name: "Concessões de Benefícios",
-        href: "/images/menu/concessao.jpeg",
+        href: "/images/menu/concessao.jpg",
       },
 
       { name: "Contratos", href: "/contratos" },

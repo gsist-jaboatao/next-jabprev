@@ -1,8 +1,8 @@
 import React from "react";
 
 const investmentPolicies = [
-  { year: 2026, link:"Pdf/investimentos/politica-de-investimentos/2025/3.3_POLITICA_DE_INVESTIMENTOS_2026.pdf" },
-  { year: 2025, link:"Pdf/investimentos/politica-de-investimentos/2025/5.2_POLITICA_DE_INVESTIMENTOS_2025.pdf" },
+  { year: 2026, link:"Pdf/investimentos/politica-de-investimentos/3.3_POLITICA_DE_INVESTIMENTOS_2026.pdf" },
+  { year: 2025, link:"Pdf/investimentos/politica-de-investimentos/5.2_POLITICA_DE_INVESTIMENTOS_2025.pdf" },
   { year: 2024, link: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2024/02/POLITICA_DE_INVESTIMENTOS_2024_ASSINADA.pdf" },
   { year: 2023, link: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2023/03/Politica-de-Investimentos-2023-Versao-Final.pdf" },
   { year: 2022, link: "https://backendjaboataoprev.jaboatao.pe.gov.br/wp-content/uploads/2022/03/Politica-Investimento-2022.pdf" },

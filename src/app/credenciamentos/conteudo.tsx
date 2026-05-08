@@ -258,7 +258,7 @@ const dados: Credenciamento[] = [
     tipoInstituicao: "GESTOR",
     dataCredenciamento: "12/04/2023",
     dataValidade: "11/04/2025",
-    downloadLink: "#",
+    downloadLink: "pdf/investimentos/credenciamentos/TermodeCredenciamentoCustodiante XP.pdf",
   },
 
   {

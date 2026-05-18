@@ -26,6 +26,16 @@ const reportsData: ReportsByYear = {
         name: "Fevereiro",
         url: "/Pdf/previdencia/provisoes-matematicas/2026/2026FEVEREIRO.pdf",
       },
+
+      {
+        name: "Março",
+        url: "/Pdf/previdencia/provisoes-matematicas/2026/2026MARCO.pdf",
+      },
+
+      {
+        name: "Abril",
+        url: "/Pdf/previdencia/provisoes-matematicas/2026/2026ABRIL.pdf",
+      },
     ],
   },
 
